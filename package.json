@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-shopify",
+  "version": "1.0.0",
+  "description": "Shopify GraphQL Admin API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "fetch": "node fetch.js",
+    "express": "node express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
